@@ -11,11 +11,16 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background: linear-gradient(135deg, #7b4b2a, #3d2516);
+    background: linear-gradient(135deg, #7b4b2a, #a775578c);
     min-height: 100vh;
 
     display: flex;
     flex-direction: column;
+    background-image: url(coffee_backgound.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
 }
 
 /* ---------- Top Bar ---------- */
@@ -31,12 +36,12 @@ body {
 
 .brand {
 
-    color: white;
+    color: rgba(73, 50, 19, 0.87);
 
     font-size: 20px;
     font-weight: bold;
 
-    text-shadow: 2px 2px 2px black;
+    text-shadow: 2px 2px 2px brown;
 }
 
 .top-links {
@@ -48,7 +53,10 @@ body {
 
 .staff-link {
 
-    color: white;
+    color: black;
+    border: 2px solid aquamarine;
+    border-radius: 20px;
+    padding: 7px 16px;
 
     font-size: 13px;
 
@@ -108,7 +116,7 @@ body {
 
 .hero-title {
 
-    color: white;
+    color: black;
 
     font-size: 36px;
 
@@ -119,9 +127,9 @@ body {
 
 .hero-subtitle {
 
-    color: blanchedalmond;
-
-    font-size: 16px;
+    color: black;
+     text-shadow: 3px 3px 4px black;
+    font-size: 18px;
 
     max-width: 480px;
 
